@@ -12,6 +12,9 @@ import AntForm from './components/AntForm';
 import AntTable from './components/AntTable';
 import AntTablePa from './components/AntTable/AntTablePa';
 import AntRowsCustomSelection from './components/AntTable/AntRowsCustomSelection';
+import AntIcons from './components/AntIcons';
+import AntTableCrud from './components/AntTable/AntTableCrud';
+import AntFormwithValidation from './components/AntFormwithValidation';
 
 function App() {
   return (
@@ -28,7 +31,10 @@ function App() {
       {/* <AntForm /> */}
       {/* <AntTable /> */}
       {/* <AntTablePa /> */}
-      <AntRowsCustomSelection/>
+      {/* <AntRowsCustomSelection/>
+      <AntIcons/> */}
+      <AntTableCrud/>
+      <AntFormwithValidation/>
     </div>
   );
 }
